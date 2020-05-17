@@ -1,0 +1,402 @@
+/**
+page1
+**/
+.onelogo{
+  padding-top: 0rem;
+  width: 2rem;
+  vertical-align: middle;
+  background-size: cover;
+}
+.rect-wrapper01{
+  list-style: none;
+  display: flex;
+  // flex-direction: row-reverse;
+  flex-wrap: wrap;
+  li{
+    width: 33.3%;
+    &.rect{
+      font-size: 20px !important;
+      font-family: 微软雅黑;
+      list-style: none;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      margin: 0;
+      padding: 0;
+      position: relative;
+      display: inline-block;
+      width: 32.9%;
+      height: 8rem;
+      text-align: center;
+      text-align-last: auto;
+      vertical-align: top;
+      .outline{
+        font-size: 20px !important;
+        list-style: none;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        text-align: center;
+        text-align-last: auto;
+        outline: none;
+        font-family: 微软雅黑;
+        margin: 0;
+        padding: 0;
+        display: block;
+        position: absolute;
+        width: 99.9%;
+        height: 6.5rem;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        .onespan{
+          list-style: none;
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
+          text-align: center;
+          text-align-last: auto;
+          font-size: 0.8rem;
+          font-family: "Korataki";
+          color: #ffffff;
+          text-shadow: 0 0 10px #1fc5fc;
+        }
+        .onediv{
+          font-size: 20px !important;
+          list-style: none;
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
+          text-align: center;
+          text-align-last: auto;
+          outline: none;
+          font-family: 微软雅黑;
+          margin: 0;
+          padding: 0;
+          height: 100%;
+          background: url('../assets/frame_da_zong.png') no-repeat center;
+          background-size: cover;
+          .one-rect-content{
+            font-size: 20px !important;
+            list-style: none;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            text-align: center;
+            text-align-last: auto;
+            font-family: 微软雅黑;
+            color: #36eeee;
+            margin-left: 1rem;
+            .rect-num{
+              list-style: none;
+              text-align-last: auto;
+              font-style: normal;
+              -webkit-tap-highlight-color: rgba(0,0,0,0);
+              font-family: "EuropeExt";
+              font-weight: bolder;
+              font-size: 2.3rem;
+              color: #3eb9ff;
+              text-align: center;
+              line-height: 5rem;
+            }
+            .rect-unit{
+              list-style: none;
+              text-align: center;
+              text-align-last: auto;
+              font-style: normal;
+              -webkit-tap-highlight-color: rgba(0,0,0,0);
+              font-weight: 550;
+              font-family: "EuropeExt";
+              font-size: 1.3rem;
+              color: #3eb9ff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.chart-wrapper{
+  float: left;
+  height: 17rem;
+  width: 50%;
+  .chart-title{
+    font-family: 微软雅黑;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 10px #fff;
+    position: absolute;
+    background-size: 100% auto;
+    margin-left: 3.8rem;
+    font-size: 1rem;
+  }
+  .chart{
+    width: 100%;
+    height: 100%;
+    &.chart2{
+      width: 73%;
+      height: 95%;
+      margin-top: 2rem;
+      margin-left: 5rem;
+
+    }
+  }
+}
+
+/**
+page2
+**/
+
+.page2 .rect-wrapper01 li:nth-child(4){
+    margin-left: 11rem;
+}
+.page2 .rect-wrapper01 li:nth-child(5){
+  margin-left: 2rem;
+}
+.oneimg {
+  padding-top: 0rem;
+  width: 1rem;
+  vertical-align: middle;
+}
+.carTable {
+  width: 100%;
+  background: url(../assets/images/frame_clhy.png) no-repeat center center;
+  background-size: contain;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 1px;
+  height: 100%;
+}
+.carTables th{
+  /*border-right: 1px #133455 solid;*/
+  text-align: center;
+  font-size: 0.9rem ;
+  color: #ffffff;
+  height: 2.3rem;
+  width: 50%;
+
+}
+.carTable th{
+  /*border-right: 1px #133455 solid;*/
+  text-align: center;
+  font-size: 1rem ;
+  color: #ffffff;
+  height: 2.3rem;
+  width: 50%;
+
+}
+.td1, th {
+  display: table-cell;
+  vertical-align: inherit;
+}
+.singleColor {
+  background-color: #091b2d;
+  color:#ffffff;
+}
+.carTable td{
+  /*border-right: 1px #133455 solid;*/
+  text-align: center;
+  font-size: 16px;
+  height: 2.3rem;
+  color: #2fa2ff
+}
+.carTable .td1{
+  /*border-right: 1px #133455 solid;*/
+  text-align: center;
+  font-size: 16px;
+  height: 2.3rem;
+  color: #FEFEFE
+}
+.carTables td{
+  /*border-right: 1px #133455 solid;*/
+  text-align: center;
+  font-size: 0.9rem;
+  height: 2.6rem;
+  color: #2fa2ff
+}
+.carTables .td1{
+  /*border-right: 1px #133455 solid;*/
+  text-align: center;
+  font-size: 0.9rem;
+  height: 2.6rem;
+}
+.sonTitle-box{
+  width:100%;
+}
+.sonTitle {
+  width: 30%;
+  font-size: 0.8rem;
+  color: #ffffff;
+  float: left;
+}
+.twologo {
+  padding-top: 0rem;
+  width: 1rem;
+  vertical-align: middle;
+}
+.twospan {
+  font-size: 0.5rem;
+  font-family: "Korataki";
+  text-shadow: 0 0 20px #1fc5fc;
+}
+
+/**
+page3
+**/
+.divline {
+  height: 13rem;
+  text-align: left;
+  i{
+    font-style: normal;
+  }
+}
+.mileagelogo {
+  padding-top: 0rem;
+  width: 2rem;
+  vertical-align: middle;
+  margin-left: 1.6rem;
+}
+.onespan03 {
+  font-size: 0.8rem;
+  font-family: "Korataki";
+  color: #ffffff;
+  text-shadow: 0 0 10px #1fc5fc;
+}
+.threeonediv {
+  background: url(../assets/images/frame_xiao_zong.png) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 45%;
+}
+.one-rect-content {
+  color: #36eeee;
+  margin-left: 1rem;
+}
+.rect-num03 {
+  font-family: "EuropeExt";
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #3eb9ff;
+  text-align: center;
+  line-height: 4.4rem;
+}
+.rect-unit03 {
+  font-weight: 550;
+  font-family: "EuropeExt";
+  font-size: 1rem;
+  color: #3eb9ff;
+}
+.thrlogo {
+  padding-top: 0rem;
+  width: 2rem;
+  vertical-align: middle;
+  margin-left: 1.6rem;
+}
+.page3-h1{
+  width: 100%;
+  height: 13rem;
+}
+.page3-h2{
+  width: 100%;
+  height: 14rem;
+}
+
+/**
+page4
+**/
+.page4-title{
+  font-size: 0.4rem;
+  text-align: center;
+  padding-left: 2rem;
+  font-family: "Korataki";
+}
+.page4 .page4-title{
+  text-align: left;
+}
+.fourlogo01{
+  padding-top: 0rem;
+  width: 2rem;
+  vertical-align: middle;
+}
+.page4-h1{
+  width: 100%;
+  height: 15rem;
+}
+
+/**
+page5
+**/
+.page5-h1{
+  width:100%;
+  height: 15rem;
+}
+.page5-h2{
+  width:100%;
+  height: 7rem;
+}
+.page5-rect-long-left {
+  background: url(../assets/images/frame_gzgl_da.png) no-repeat;
+  background-size: contain;
+}
+.fydiv {
+  height: 4rem;
+  width: 100%;
+}
+.ff {
+  display: inline;
+  float: left;
+}
+.ff.f01 {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.1rem;
+  background: url(../assets/images/icon_bjzc.png) no-repeat center center;
+  background-size: contain;
+}
+.ff.f0102 {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.1rem;
+  background: url(../assets/images/icon_bjcls.png) no-repeat center center;
+  background-size: contain;
+}
+.ff.f0103 {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.1rem;
+  background: url(../assets/images/icon_clbjl.png) no-repeat center center;
+  background-size: contain;
+}
+.fspan {
+  font-size: 0.5rem;
+  font-family: "造字工房典黑";
+  color: #ffffff;
+  text-shadow: 0 0 1px #ffffff;
+  margin-left: 1rem;
+}
+.one-rect-content {
+  color: #36eeee;
+  margin-left: 1rem;
+}
+.rect-num5 {
+  font-family: "EuropeExt";
+  font-weight: bolder;
+  font-size: 1.4rem;
+  color: #3eb9ff;
+  text-align: center;
+  line-height: 2rem;
+}
+.rect-unit5 {
+  font-weight: 600;
+  font-family: "EuropeExt";
+  font-size: 0.8rem;
+  color: #3eb9ff;
+}
+
+/**
+page6
+**/
+.page6 .rect-wrapper01 li.rect{
+  width: 25%;
+}
+.page6-h1{
+  width:100%;
+  height: 14rem;
+}
